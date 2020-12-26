@@ -1,0 +1,188 @@
+#searchBox {
+    padding: 4px 0 11px 0;
+}
+
+a {
+    color: #333333;
+}
+
+#floor {
+    margin-top: 30px;
+}
+
+#floor .ensure {
+    height: 100px;
+}
+
+.ebitle {
+    width: 100%;
+}
+
+#proDetail {
+    padding: 20px;
+    background: #f3f3f3;
+    min-width: 1200px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+#proDetail>.container {
+    box-sizing: border-box;
+}
+
+#proDetail>.container>.bread {
+    line-height: 40px;
+}
+
+#proDetail .bread a:first-child {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#proDetail .container.detail {
+    background: #fff;
+}
+
+#proDetail .bookdetail {
+    line-height: 30px;
+    width: 800px;
+}
+
+.p120 {
+    padding: 10px 20px;
+}
+
+#proDetail .bookdetail .title h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #666666;
+}
+
+#proDetail .bookdetail .title p {
+    color: #666666;
+}
+
+.bookprice {
+    position: relative;
+}
+
+.bookdetail .evaluation {
+    width: 80px;
+    height: 40px;
+    line-height: 20px;
+    border-left: 1px solid #fff;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+
+.evaluation span:last-child {
+    color: #f60;
+}
+
+.bookprice span {
+    color: #666666;
+}
+
+.bookprice .red,
+#proDetail .bookdetail .title p.red {
+    color: red;
+}
+
+#proDetail .bookprice {
+    background: #cccccc;
+}
+
+#proDetail .bookprice p *,
+#proDetail .skuid * {
+    margin-right: 10px;
+}
+
+#proDetail .skuid span {
+    color: #666666;
+}
+
+#proDetail .f20.red {
+    font-size: 20px;
+}
+
+#proDetail .f12.red {
+    font-size: 12px;
+}
+
+#proDetail .bookprice i {
+    display: inline-block;
+    width: 88px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    color: #fff;
+    background: url(https://cdn.jsdelivr.net/gh/mydracula/image@master/20201221/e886b77da145d9c057854cc38dad60c1.png) no-repeat center;
+}
+
+#proDetail .skuid.p120 a {
+    display: inline-block;
+    width: 100px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-weight: 600;
+    color: #666666;
+}
+
+.settlement {
+    font-size: 0;
+    margin-top: 30px;
+}
+
+.settlement .num {
+    margin-right: 20px;
+}
+
+.settlement input {
+    /* text-align: center;
+    font-size: 12px;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #a7a6ac;
+    width: 38px;
+    color: #666; */
+    float: left;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.settlement span,
+.settlement input {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+
+.settlement span a {
+    display: block;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    text-align: center;
+    background: #cccccc;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.settlement .submit {
+    display: block;
+    width: 190px;
+    height: 60px;
+    background: #f60;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    color: #fff;
+}

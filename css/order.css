@@ -1,0 +1,444 @@
+.full div.container>a {
+    text-indent: 269px;
+}
+
+.c108 {
+    color: #1080e9;
+}
+
+.c4d {
+    color: #4d4d4d;
+}
+
+.cf2 {
+    background-color: #f2f2f2;
+}
+
+.ff6 {
+    color: #ff6600;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.c99 {
+    color: #999999;
+}
+
+.receipt {
+    color: #666666;
+    font-size: 20px;
+    margin-top: 37px;
+    padding-left: 3px;
+    padding-bottom: 5px;
+}
+
+.bf {
+    cursor: pointer;
+    padding: 1px;
+    border: 1px solid #e5e5e5;
+}
+
+.people {
+    height: 60px;
+    line-height: 60px;
+}
+
+.people span.fl {
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.people a.fr,
+.cf2.people.c4d.m20 div.fr a.fl {
+    font-size: 18px;
+    margin-right: 12px;
+}
+
+.adress {
+    height: 34px;
+    margin-top: 20px;
+    margin-left: 27px;
+}
+
+.adress>label {
+    text-indent: 11px;
+    position: relative;
+    display: block;
+    width: 121px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.adress>label>span {
+    margin-left: 20px;
+}
+
+.adress input {
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+}
+
+.current {
+    padding: 0;
+    border: solid 2px #ff6600;
+}
+
+.bgccolor {
+    background: #ff6600 !important;
+}
+
+.rectangle {
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+    width: 16px;
+    height: 14px;
+}
+
+input:checked~.rectangle::before {
+    position: absolute;
+    bottom: -8px;
+    right: 1px;
+    display: block;
+    content: "\2714";
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+.cd,
+.name,
+.tel {
+    height: 34px;
+    line-height: 34px;
+}
+
+.name,
+.tel {
+    font-size: 14px;
+}
+
+.cd {
+    font-size: 18px;
+    margin-left: 37px;
+}
+
+.cd span {
+    margin-right: 20px;
+}
+
+.name {
+    margin: 0 83px;
+}
+
+.name span {
+    margin-right: 20px;
+}
+
+.tel i {
+    display: block;
+    font-size: 18px;
+    background: #999999;
+    height: 30px;
+    line-height: 30px;
+    width: 120px;
+    color: #ffffff;
+    margin-left: 77px;
+    text-align: center;
+}
+
+.more {
+    margin-top: 45px;
+}
+
+.more>div {
+    margin-left: 27px;
+    font-size: 18px;
+}
+
+.more .adress {
+    margin-top: 14px;
+}
+
+.m20 {
+    margin: 20px 0;
+}
+
+.pay {
+    font-size: 18px;
+}
+
+.pay>label,
+.distribution .adress label {
+    text-align: center;
+    text-indent: 0;
+    margin-right: 17px;
+    font-size: 18px;
+}
+
+.pay>a {
+    height: 35px;
+    font-size: 18px;
+    line-height: 35px;
+    margin-left: 33px;
+}
+
+.cf2.people.c4d.m20 div.fr a.fl:first-child {
+    margin-right: 53px;
+}
+
+.book {
+    width: 736px;
+    height: 253px;
+    background-color: #f2f2f2;
+}
+
+.bookbox {
+    margin-top: 13px;
+    margin-left: 26px;
+    height: 104px;
+    line-height: 104px;
+}
+
+.bookbox img {
+    width: 104px;
+    height: 104px;
+}
+
+.bookbox span {
+    height: 104px;
+    line-height: 104px;
+}
+
+.bookbox .f15 {
+    font-size: 15px;
+    margin-left: 55px;
+}
+
+.bookbox .f14 {
+    font-size: 14px;
+    margin-left: 95px;
+    color: #f00d0d;
+}
+
+.bookbox .f13 {
+    font-size: 13px;
+    margin-left: 60px;
+}
+
+.bookbox .f18 {
+    font-size: 18px;
+    margin-left: 107px;
+}
+
+.distribution {
+    padding: 30px 20px 51px 18px
+}
+
+.distribution .mode {
+    font-size: 18px;
+}
+
+.distribution .adress {
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.time {
+    margin-top: 43px;
+    width: 426px;
+}
+
+.time>div {
+    font-size: 18px;
+}
+
+.time div:last-child {
+    margin-top: 18px;
+}
+
+.invoice {
+    border-top: 2px solid #e6e6e6;
+    height: 72px;
+    font-size: 18px;
+}
+
+.invoice .information {
+    height: 54px;
+    line-height: 54px;
+    font-size: 18px;
+}
+
+.ordinary {
+    height: 18px;
+    line-height: 18px;
+}
+
+.ordinary span {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.ordinary a {
+    margin-left: 29px;
+}
+
+.Subtotal {
+    margin-top: 35px;
+    /* height: 58px; */
+    line-height: 55px;
+    font-size: 16px;
+    color: #808080;
+    border: 1px solid #ccc;
+}
+
+.Subtotal div.fl p>span:first-child {
+    margin-right: 82px;
+}
+
+.Subtotal div.fl p>span>span.ff6 {
+    margin: 0 19px;
+}
+
+.Subtotal div.fl p>span.ff6 {
+    margin-right: 80px;
+}
+
+.Subtotal div.fr span {
+    font-size: 20px;
+}
+
+.Subtotal div.fr span.ff6 {
+    font-size: 26px;
+    margin-right: 69px;
+}
+
+.submit {
+    border: 0;
+    height: 60px;
+    line-height: 60px;
+}
+
+.submit span {
+    margin-left: 17px;
+    margin-right: 9px;
+}
+
+.submit a {
+    width: 140px;
+    height: 60px;
+    line-height: 60px;
+    background: #ff6600;
+    border-radius: 2px;
+    font-size: 26px;
+    color: #fefefe;
+    text-indent: 24px;
+}
+
+.submit input {
+    width: 345px;
+    height: 22px;
+    margin-top: 17px;
+    background-color: #ffffff;
+    border: solid 1px #d9d9d9;
+}
+
+.advertisement {
+    margin-top: 52px;
+    background: #733419;
+}
+
+.advertisement img {
+    width: 100%;
+}
+
+
+/* 遮罩 */
+
+.mask {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.5;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    display: none;
+    z-index: 11;
+}
+
+.popup {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffff;
+    z-index: 22;
+    display: none;
+}
+
+.popup .sure {
+    position: relative;
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    background: #e6e6e6;
+    text-indent: 10px;
+    color: #666666;
+}
+
+.popup .sure span {
+    position: absolute;
+    right: 5px;
+}
+
+.popup .tip {
+    margin-top: 20px;
+    background: #ffffff;
+    color: #666666;
+}
+
+.popup .tip .popup_sure {
+    height: 77px;
+    line-height: 77px;
+    margin: auto;
+    width: 182px;
+}
+
+.popup .tip .iconfont {
+    font-size: 70px;
+    color: #ef0f0f;
+}
+
+.popup .tip .yes {
+    font-size: 14px;
+}
+
+.popup .btns {
+    width: 190px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.popup .btns .cancel,
+.popup .confirm {
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.popup .btns .cancel {
+    background: #e6e6e6;
+    color: #666666;
+    margin-right: 30px;
+}
+
+.popup .confirm {
+    background: #ff6600;
+    color: #ffffff;
+}

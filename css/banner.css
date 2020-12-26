@@ -1,0 +1,479 @@
+/* 首页1000*400 */
+
+.banner {
+    width: 1000px;
+    height: 430px;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner ul {
+    width: 6600px;
+    height: 430px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.banner ul li {
+    float: left;
+}
+
+.banner ul img {
+    width: 1000px;
+    height: 400px;
+}
+
+.banner ol {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    left: 0;
+    text-align: center;
+    font-size: 0px;
+}
+
+.banner ol li {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgb(255, 102, 0);
+    display: inline-block;
+    margin: 0 3px;
+}
+
+.banner ol li.on {
+    background-color: rgb(0, 255, 0);
+}
+
+.banner .btn {
+    width: 20px;
+    height: 50px;
+    background-color: black;
+    opacity: 0.1;
+    position: absolute;
+    top: 175px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.btn_l {
+    background: url(https://cdn.jsdelivr.net/gh/mydracula/image@master/20201220/5c13664af3b75f7801809ff9d6901901.png)no-repeat center center;
+}
+
+.btn_r {
+    background: url(https://cdn.jsdelivr.net/gh/mydracula/image@master/20201220/ebdd3dc6a22b67ed60de1726a96e4e4c.png) no-repeat center center;
+}
+
+.banner:hover .btn {
+    opacity: 0.6;
+}
+
+.banner .btn_l {
+    left: 0;
+}
+
+.banner .btn_r {
+    right: 0;
+}
+
+
+/* one小轮播图328*216.8 */
+
+.olympic .one {
+    width: 328px;
+    height: 216.8px;
+    position: relative;
+    overflow: hidden;
+}
+
+.olympic .one ul {
+    width: 6600px;
+    height: 218.8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.olympic .one ul li {
+    float: left;
+    width: 328px;
+}
+
+.olympic .one ul img {
+    width: 328px;
+    height: 216.8px;
+}
+
+.olympic .one ol {
+    width: 160px;
+    position: absolute;
+    left: 84px;
+    bottom: 10px;
+    background-color: transparent;
+}
+
+.olympic .one ol li {
+    width: 30px;
+    height: 6px;
+    border-radius: 6px;
+    padding: 0px;
+    border: 0px;
+    background-color: rgb(255, 102, 0);
+    margin-right: 2px;
+}
+
+.olympic .one ol li.on {
+    background-color: rgb(0, 255, 0);
+}
+
+.olympic .one .btn {
+    width: 20px;
+    height: 50px;
+    background-color: black;
+    opacity: 0.1;
+    position: absolute;
+    top: 83.4px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.olympic .one:hover .btn {
+    opacity: 0.6;
+}
+
+.olympic .one .btn_l {
+    left: 0;
+}
+
+.olympic .one .btn_r {
+    right: 0;
+}
+
+
+/* two小轮播图439*340 */
+
+.two {
+    width: 439px;
+    height: 340px;
+    position: relative;
+    overflow: hidden;
+}
+
+.two ul {
+    width: 6600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.two ul li {
+    float: left;
+    width: 439px;
+}
+
+.two ul img {
+    width: 439px;
+    height: 340px;
+}
+
+.two ol {
+    width: 68px;
+    position: absolute;
+    left: 185.5px;
+    bottom: 6px;
+    background-color: transparent;
+}
+
+.ol {
+    display: none;
+}
+
+.two ol li {
+    float: left;
+    width: 15px;
+    height: 3px;
+    padding: 0px;
+    border: 0px;
+    background-color: #ffffff;
+    margin-right: 2px;
+}
+
+.two ol li.on {
+    background: black;
+    opacity: 0.3;
+}
+
+.two .btn {
+    width: 20px;
+    height: 50px;
+    background-color: black;
+    opacity: 0.1;
+    position: absolute;
+    top: 145px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.two:hover .btn {
+    opacity: 0.6;
+}
+
+.two .btn_l {
+    left: 0;
+}
+
+.two .btn_r {
+    right: 0;
+}
+
+
+/* three小轮播图439*340 */
+
+.three {
+    width: 439px;
+    height: 340px;
+    position: relative;
+    overflow: hidden;
+}
+
+.three ul {
+    width: 6600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.three ul li {
+    float: left;
+    width: 439px;
+}
+
+.three ul img {
+    width: 439px;
+    height: 340px;
+}
+
+.three ol {
+    width: 68px;
+    position: absolute;
+    left: 185.5px;
+    bottom: 6px;
+    background-color: transparent;
+}
+
+.ol {
+    display: none;
+}
+
+.three ol li {
+    float: left;
+    width: 15px;
+    height: 3px;
+    padding: 0px;
+    border: 0px;
+    background-color: #ffffff;
+    margin-right: 2px;
+}
+
+.three ol li.on {
+    background: black;
+    opacity: 0.3;
+}
+
+.three .btn {
+    width: 20px;
+    height: 50px;
+    background-color: black;
+    opacity: 0.1;
+    position: absolute;
+    top: 145px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.three:hover .btn {
+    opacity: 0.6;
+}
+
+.three .btn_l {
+    left: 0;
+}
+
+.three .btn_r {
+    right: 0;
+}
+
+
+/* four小轮播图439*340 */
+
+.four {
+    width: 439px;
+    height: 340px;
+    position: relative;
+    overflow: hidden;
+}
+
+.four ul {
+    width: 6600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.four ul li {
+    float: left;
+    width: 439px;
+}
+
+.four ul img {
+    width: 439px;
+    height: 340px;
+}
+
+.four ol {
+    width: 68px;
+    position: absolute;
+    left: 185.5px;
+    bottom: 6px;
+    background-color: transparent;
+}
+
+.ol {
+    display: none;
+}
+
+.four ol li {
+    float: left;
+    width: 15px;
+    height: 3px;
+    padding: 0px;
+    border: 0px;
+    background-color: #ffffff;
+    margin-right: 2px;
+}
+
+.four ol li.on {
+    background: black;
+    opacity: 0.3;
+}
+
+.four .btn {
+    width: 20px;
+    height: 50px;
+    background-color: black;
+    opacity: 0.1;
+    position: absolute;
+    top: 145px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.four:hover .btn {
+    opacity: 0.6;
+}
+
+.four .btn_l {
+    left: 0;
+}
+
+.four .btn_r {
+    right: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pptbox {
+    width: 400px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.pptbox .innerwrapper {
+    width: 2400px;
+    /*当增加了li之后，大盒子的宽度也要相应的增加 这里增加了两个li，每个400，所以ul 从原来的1600变成了2400*/
+    height: 100px;
+    list-style: none;
+    position: absolute;
+    left: -400px;
+}
+
+.innerwrapper li {
+    width: 400px;
+    height: 100px;
+    float: left;
+}
+
+.innerwrapper li a {
+    display: block;
+}
+
+.innerwrapper li a img {
+    width: 400px;
+    height: 100px;
+    display: block;
+}
+
+.btnleft {
+    width: 20px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    background-color: black;
+    background-image: url(https://cdn.jsdelivr.net/gh/mydracula/image@master/20201227/5c13664af3b75f7801809ff9d6901901.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    /* z-index: 100; */
+    color: #fff;
+}
+
+.btnright {
+    width: 20px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    top: 25px;
+    background-color: black;
+    background-image: url(https://cdn.jsdelivr.net/gh/mydracula/image@master/20201227/ebdd3dc6a22b67ed60de1726a96e4e4c.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    /* z-index: 100; */
+    color: #fff;
+}
+
+
+/*控制按钮开始*/
+
+.controls {
+    width: 96px;
+    position: absolute;
+    left: 152px;
+    bottom: 10px;
+    list-style: none;
+}
+
+.controls li {
+    width: 20px;
+    height: 20px;
+    background-color: gold;
+    float: left;
+    margin-right: 2px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.controls li.current {
+    background-color: aqua;
+    color: brown;
+}
+
+
+/*控制按钮结束*/

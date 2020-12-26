@@ -1,0 +1,84 @@
+    body {
+        background-color: #fff;
+        font-size: 14px;
+        font-family: "微软雅黑";
+        color: #666;
+    }
+    
+    img {
+        vertical-align: top;
+    }
+    
+    td {
+        vertical-align: middle;
+    }
+    
+    tr td:nth-child(2) {
+        word-spacing: -4px;
+    }
+    
+    .f20 {
+        font-size: 20px;
+    }
+    
+    .cf60 {
+        color: #f60;
+    }
+    
+    .car {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        line-height: 30px;
+    }
+    
+    table thead tr {
+        background-color: #f3f3f3;
+    }
+    
+    table td {
+        width: 70px;
+    }
+    
+    td {
+        padding: 10px 10px;
+    }
+    
+    table tr {
+        border-bottom: 2px solid #ccc;
+    }
+    
+    table tfoot tr {
+        border: 2px solid #ccc;
+    }
+    
+    table td .reduce,
+    table td .add {
+        float: left;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #ccc;
+        line-height: 30px;
+        text-align: center;
+        font-size: 22px;
+        color: #666;
+    }
+    
+    table td .proNum {
+        float: left;
+        padding: 0;
+        width: 80px;
+        height: 30px;
+        border: 1px solid #ccc;
+        border-left: none;
+        border-right: none;
+        text-align: center
+    }
+    
+    #settlement {
+        cursor: pointer;
+    }

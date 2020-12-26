@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 重置样式 -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- 公共样式 -->
+    <link rel="stylesheet" href="css/common.css">
+    <!-- 商品样式 -->
+    <link rel="stylesheet" href="css/proDetail.css">
+    <!-- 放大镜样式 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mydracula/image@master/20201221/95bddca9788213741f7e947c893e6e5b.css">
+    <!-- jQuery cdn -->
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- 商品详情JS -->
+    <link rel="stylesheet" href="js/proDetail.js">
+    <!-- 放大镜JS -->
+    <script src="https://cdn.jsdelivr.net/gh/mydracula/image@master/20201221/e4c3a6014ed39b9fd6c84a6b8e640e77.js"></script>
+    <script type="text/javascript">
+        $(function() {
+
+            var magnifierConfig = {
+                magnifier: "#magnifier1", //最外层的大容器
+                width: 346, //承载容器宽
+                height: 290, //承载容器高
+                moveWidth: null, //如果设置了移动盒子的宽度，则不计算缩放比例
+                zoom: 5 //缩放比例
+            };
+
+            var _magnifier = magnifier(magnifierConfig);
+
+            /*magnifier的内置函数调用*/
+            /*
+                //设置magnifier函数的index属性
+                _magnifier.setIndex(1);
+        
+                //重新载入主图,根据magnifier函数的index属性
+                _magnifier.eqImg();
+            */
+        });
+    </script>
+</head>
+
+<body>
+
+    <div class="full">
+        <div class="container clearfix">
+            <a href="javascript:;" class="fl">legochina.cn</a>
+            <p class="fr">
+                欢迎光临<a href="javascript:;">乐购</a>，请
+                <a href="javascript:;">登陆</a>\<a href="javascript:;">注册</a>
+            </p>
+            <h1 class="logo">
+                <img src="https://cdn.jsdelivr.net/gh/mydracula/image@master/20201226/e76d9eb30b9fb860ddc17c78461d5077.png">
+            </h1>
+        </div>
+    </div>
+
+
+
+    <section id="searchBox" class="container  clearfix">
+
+        <p class="shopping fr">
+            <a class="shopCar" href="javascript:;">购物车 <span>3</span></a>
+            <a class="order" href="javascript:;">我的订单</a>
+        </p>
+
+        <form action="javascript:;" class="fr">
+            <input class="sText fl" type="text" placeholder="创意文具">
+            <input class="sBtn fl" type="submit" value="">
+        </form>
+    </section>
+
+    <nav class="container clearfix">
+        <ul class="fr">
+            <li><a href="javascript:;">图书</a></li>
+            <li><a href="javascript:;">电子书</a></li>
+            <li><a href="javascript:;">原创文学</a></li>
+            <li><a href="javascript:;">服装 </a></li>
+            <li><a href="javascript:;">运动户外</a></li>
+            <li><a href="javascript:;">儿童装</a></li>
+            <li><a href="javascript:;">家居</a></li>
+            <li><a href="javascript:;">创意文具</a></li>
+            <li><a href="javascript:;">地方特产</a></li>
+            <li><a href="javascript:;">海外购</a></li>
+            <li><a href="javascript:;">电器城</a></li>
+
+        </ul>
+    </nav>
+
+
+    <div id="proDetail">
+        <!-- 面包屑导航 -->
+        <div class="container">
+            <p class="bread">
+                <a href="javascrpit:;">图书</a> &gt;
+                <a href="javascrpit:;">小说</a> &gt;
+                <a href="javascrpit:;">情感/家庭/婚姻</a> &gt;
+                <a href="javascrpit:;">博集天卷</a> &gt;
+                <a href="javascrpit:;">她和他</a>
+            </p>
+        </div>
+        <!-- 商品详情 -->
+        <div class="container detail clearfix p120">
+            <div class="enlarge fl">
+                <div class="magnifier" id="magnifier1">
+                    <div class="magnifier-container">
+                        <div class="images-cover"></div>
+                        <!--当前图片显示容器-->
+                        <div class="move-view"></div>
+                        <!--跟随鼠标移动的盒子-->
+                    </div>
+                    <div class="magnifier-assembly">
+                        <div class="magnifier-btn">
+                            <span class="magnifier-btn-left">&lt;</span>
+                            <span class="magnifier-btn-right">&gt;</span>
+                        </div>
+                        <!--按钮组-->
+                        <div class="magnifier-line">
+                            <ul class="clearfix animation03">
+                                <li>
+                                    <div class="small-img">
+                                        <img src="https://cdn.jsdelivr.net/gh/mydracula/image@master/20201221/78a35bedc9d8c45770a84db5a6da8287.png" />
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="small-img">
+                                        <img src="https://cdn.jsdelivr.net/gh/mydracula/image@master/20201221/e91c714f6b64a275d25de9a42a9528f5.png" />
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="small-img">
+                                        <img src="https://cdn.jsdelivr.net/gh/mydracula/image@master/20201221/5d3a165ae2cbd322e0fd5ed1bb97efd0.png" />
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="small-img">
+                                        <img src="https://cdn.jsdelivr.net/gh/mydracula/image@master/20201221/85ac3d29692fe6d483f00aff2829262b.png" />
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="small-img">
+                                        <img src="https://cdn.jsdelivr.net/gh/mydracula/image@master/20201221/78a35bedc9d8c45770a84db5a6da8287.png" />
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--缩略图-->
+                    </div>
+                    <div class="magnifier-view"></div>
+                    <!--经过放大的图片显示容器-->
+                </div>
+            </div>
+
+            <div class="fr bookdetail">
+                <div class="title p120">
+                    <h2>她和他</h2>
+                    <p class="red">《偷影子的人》作者马克·李维重磅新作，法国连续60周在榜，销量突破120万册</p>
+                    <p>[法] 马克·李维 著；杨亦雨 译</p>
+                </div>
+
+                <div class="p120 bookprice">
+                    <p class="evaluation">
+                        <span>累计评价</span>
+                        <span>10000</span>
+                    </p>
+                    <p>
+                        <span>乐 购 价：</span>
+                        <span class="red f20">¥26.20</span>
+                        <span>[6.9折]</span>
+                        <span>[定价：￥38.00]</span>
+                        <span>(降价通知)</span>
+                    </p>
+                    <p>
+                        <span>促销信息：</span>
+                        <span class="red f12">满减 每满150.00元，可减50.00元现金</span>
+                        <a>详情 >></a>
+                    </p>
+                    <p>
+                        <span>领 券：</span>
+                        <i>100-6</i>
+                        <i>200-50</i>
+                    </p>
+                </div>
+                <div class="skuid p120">
+                    <span>种类选择：</span>
+                    <a href="javascrpit:;">平装版</a>
+                    <a href="javascrpit:;">精装版</a>
+                    <a href="javascrpit:;">豪华版</a>
+                    <a href="javascrpit:;">豪华版plus</a>
+                </div>
+
+                <div class="settlement p120 clearfix">
+                    <div class="fl num">
+                        <input type="text" value="1" name="num">
+                        <span>
+                        <a href="javascript:;">+</a>
+                        <a href="javascript:;">-</a>
+                    </span>
+                    </div>
+
+                    <a href="./shopCar.html" class="submit fl">加入到购物车</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <section id="floor">
+        <div class="ebitle clearfix"></div>
+        <div class="ensure">
+            <div class="doc">
+                <div><img src="https://cdn.jsdelivr.net/gh/mydracula/image@master/20201219/bfeef540504423343f1ccbb5c564433d.png">
+                </div>
+                <div><img src="https://cdn.jsdelivr.net/gh/mydracula/image@master/20201219/b23d34744777b2f56292a48b6eec1d25.png">
+                </div>
+                <div><img src="https://cdn.jsdelivr.net/gh/mydracula/image@master/20201219/7150d9b14f42dd9cf3f340b19cc88d98.png">
+                </div>
+                <div><img src="https://cdn.jsdelivr.net/gh/mydracula/image@master/20201219/d5db600ab91e1fc89ba6f463c3244264.png">
+                </div>
+            </div>
+        </div>
+
+        <div class="help clearfix">
+            <div class="helpnav">
+                <h5>购物指南</h5>
+                <ul>
+                    <li>购物流程</li>
+                    <li>发票制度</li>
+                    <li>账户管理</li>
+                    <li>会员优惠</li>
+                </ul>
+            </div>
+
+
+            <div class="helpnav">
+                <h5>支付方式</h5>
+                <ul>
+                    <li>货到付款</li>
+                    <li>网上支付</li>
+                    <li>礼品卡支付</li>
+                    <li>银行转帐</li>
+                </ul>
+            </div>
+
+            <div class="helpnav">
+                <h5>订单服务</h5>
+                <ul>
+                    <li>订单配送查询</li>
+                    <li>订单状态说明</li>
+                    <li>自助取消订单</li>
+                    <li>自助修改订单</li>
+                </ul>
+            </div>
+
+
+            <div class="helpnav">
+                <h5>退换货</h5>
+                <ul>
+                    <li>退换货政策</li>
+                    <li>自助申请退换货</li>
+                    <li>退换货进度查询</li>
+                    <li>退款方式和时间</li>
+                </ul>
+            </div>
+
+            <div class="helpnav">
+                <h5>商家服务</h5>
+                <ul>
+                    <li>商家中心</li>
+                    <li>运营服务</li>
+                    <li>加入尾品汇</li>
+                </ul>
+            </div>
+
+            <div class="fl">
+                <img src="https://cdn.jsdelivr.net/gh/mydracula/image@master/20201219/f9567efa61b5e959c94ac0abbe26b819.png">
+            </div>
+
+
+        </div>
+
+        <ul class="link clearfix">
+            <li>公司简介</li>
+            <li>Investor</li>
+            <li>网站联盟</li>
+            <li>乐购招商</li>
+            <li>机构销售</li>
+            <li>手机乐购</li>
+            <li>官方Blog</li>
+            <li>热词搜索</li>
+        </ul>
+
+        <div class="copy">
+            <span>Copyright (C) 乐购网 2004-2016, All Rights Reserved</span>
+        </div>
+    </section>
+</body>
+
+</html>

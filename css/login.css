@@ -1,0 +1,209 @@
+.full div.container>a {
+    text-indent: 269px;
+}
+
+.copy {
+    padding-bottom: 0;
+}
+
+
+/* 欢迎登陆 */
+
+.welcome {
+    position: absolute;
+    font-size: 28px;
+    color: #666666;
+    left: 283px;
+    top: 55px;
+}
+
+.form {
+    margin-top: 105px;
+    height: 500px;
+    background: url(https://cdn.jsdelivr.net/gh/mydracula/image@master/20201226/49304b911e8a749ae9166c9aeaeb7eed.png) center no-repeat;
+    background-color: #e93854;
+    width: 100%;
+    min-width: 1200px;
+}
+
+.loginbg {
+    width: 350px;
+    height: 370px;
+    background: white;
+}
+
+.form .container {
+    position: relative;
+}
+
+.loginbg {
+    position: absolute;
+    top: 65px;
+    right: 90px;
+}
+
+.loginbg ul {
+    height: 21px;
+    padding: 20px 0 14px 0;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.loginbg ul li {
+    cursor: pointer;
+    float: left;
+    width: 175px;
+    height: 21px;
+    line-height: 21px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.loginbg ul li:last-child {
+    border-left: 1px solid #f6f6f6;
+}
+
+.loginbg ul li a {
+    display: block;
+    font-size: 18px;
+    height: 18px;
+    line-height: 17px;
+    font-weight: 600;
+    color: #666666;
+    margin-top: 1px;
+}
+
+.loginuform {
+    padding: 50px 25px 23px;
+}
+
+.field {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.loginuform .user,
+.loginuform .password {
+    display: block;
+    position: relative;
+}
+
+.loginuform .user span,
+.loginuform .password span {
+    position: absolute;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    left: 0;
+    bottom: 0;
+    background-color: #ccc;
+}
+
+.loginuform .user input,
+.loginuform .password input {
+    border: 1px solid #ccc;
+    height: 40px;
+    outline: none;
+    font-size: 14px;
+    padding-left: 50px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+label.border {
+    position: relative;
+    color: #666666;
+    user-select: none;
+}
+
+.loginuform a.fr {
+    color: #666666;
+}
+
+label.border input {
+    visibility: hidden;
+}
+
+label.border::before {
+    content: '';
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    border: 1px solid #ccc;
+    top: 4px;
+}
+
+.active::after {
+    content: "\2714";
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 2px;
+    top: 2px;
+    font-size: 12px;
+}
+
+.btn {
+    border: 1px solid #ff9000;
+    border-radius: 3px;
+    font-size: 16px;
+    height: 42px;
+    line-height: 42px;
+    outline: none;
+    color: #fff;
+    width: 100%;
+    cursor: pointer;
+    background: #f98400;
+    background-image: linear-gradient(90deg, #ff9000, #ff9000);
+}
+
+.btn:hover {
+    background: #e57900;
+}
+
+.goregister {
+    cursor: pointer;
+    text-align: center;
+    height: 39px;
+    line-height: 39px;
+    color: red;
+    border-top: 1px solid #f6f6f6;
+}
+
+.icon-right_x:before {
+    content: "\e6a4";
+    width: 10px;
+    height: 10px;
+    background: red;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.qrcode {
+    overflow: hidden;
+}
+
+.qrcode_img {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.qrcode a {
+    font-size: 14px;
+    color: #666666;
+}
+
+.qrcode .qrcode_help {
+    font-size: 0;
+    text-align: center;
+}
+
+.qrcode .qrcode_help em {
+    padding: 0 10px
+}
+
+.current {
+    color: #ff6600 !important;
+}

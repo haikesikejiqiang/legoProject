@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 重置样式 -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- 公共样式 -->
+    <link rel="stylesheet" href="css/common.css">
+    <!-- 购物车式 -->
+    <link rel="stylesheet" href="css/shopCar.css">
+    <!-- jQuery cdn -->
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- 商品详情JS -->
+    <script src="js/shopCar.js"></script>
+</head>
+
+<body>
+
+    <div class="full">
+        <div class="container clearfix">
+            <a href="javascript:;" class="fl">legochina.cn</a>
+            <p class="fr">
+                欢迎光临<a href="javascript:;">乐购</a>，请
+                <a href="javascript:;">登陆</a>\<a href="javascript:;">注册</a>
+            </p>
+            <h1 class="logo">
+                <img src="https://cdn.jsdelivr.net/gh/mydracula/image@master/20201217/f4eb8faae8021dea3387a223abb51769.jpg">
+            </h1>
+        </div>
+    </div>
+
+
+    <section id="searchBox" class="container  clearfix">
+
+        <p class="shopping fr">
+            <a class="shopCar" href="javascript:;">购物车 <span>3</span></a>
+            <a class="order" href="javascript:;">我的订单</a>
+        </p>
+
+        <form action="javascript:;" class="fr">
+            <input class="sText fl" type="text" placeholder="创意文具">
+            <input class="sBtn fl" type="submit" value="">
+        </form>
+    </section>
+
+    <nav class="container clearfix">
+        <ul class="fr">
+            <li><a href="javascript:;">图书</a></li>
+            <li><a href="javascript:;">电子书</a></li>
+            <li><a href="javascript:;">原创文学</a></li>
+            <li><a href="javascript:;">服装 </a></li>
+            <li><a href="javascript:;">运动户外</a></li>
+            <li><a href="javascript:;">儿童装</a></li>
+            <li><a href="javascript:;">家居</a></li>
+            <li><a href="javascript:;">创意文具</a></li>
+            <li><a href="javascript:;">地方特产</a></li>
+            <li><a href="javascript:;">海外购</a></li>
+            <li><a href="javascript:;">电器城</a></li>
+
+        </ul>
+    </nav>
+
+
+
+
+    <div class="container car">
+        <table>
+            <thead>
+                <tr>
+                    <td><input type="checkbox" class="all">全选</td>
+                    <td>商品</td>
+                    <td>单价</td>
+                    <td>数量</td>
+                    <td>小计</td>
+                    <td>操作</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>
+                        <img src="https://cdn.jsdelivr.net/gh/mydracula/image@master/20201225/b76cb4b91c878bf49102f65eb93f4a69.jpg"> 从你的全世界路过
+                    </td>
+                    <td>50.01</td>
+                    <td>
+                        <a href="javascript:;" class="reduce">-</a>
+                        <input type="text" value="1" class="proNum">
+                        <a href="javascript:;" class="add">+</a>
+                    </td>
+                    <td>50.01</td>
+                    <td>删除</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>
+                        <img src="https://cdn.jsdelivr.net/gh/mydracula/image@master/20201225/b76cb4b91c878bf49102f65eb93f4a69.jpg"> 从你的全世界路过
+                    </td>
+                    <td>50.01</td>
+                    <td>
+                        <a href="javascript:;" class="reduce">-</a>
+                        <input type="text" value="1" class="proNum">
+                        <a href="javascript:;" class="add">+</a>
+                    </td>
+                    <td>50.01</td>
+                    <td>删除</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>
+                        <img src="https://cdn.jsdelivr.net/gh/mydracula/image@master/20201225/b76cb4b91c878bf49102f65eb93f4a69.jpg"> 从你的全世界路过
+                    </td>
+                    <td>50.01</td>
+                    <td>
+                        <a href="javascript:;" class="reduce">-</a>
+                        <input type="text" value="1" class="proNum">
+                        <a href="javascript:;" class="add">+</a>
+                    </td>
+                    <td>50.01</td>
+                    <td>删除</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>
+                        <img src="https://cdn.jsdelivr.net/gh/mydracula/image@master/20201225/b76cb4b91c878bf49102f65eb93f4a69.jpg"> 从你的全世界路过
+                    </td>
+                    <td>50.01</td>
+                    <td>
+                        <a href="javascript:;" class="reduce">-</a>
+                        <input type="text" value="1" class="proNum">
+                        <a href="javascript:;" class="add">+</a>
+                    </td>
+                    <td>50.01</td>
+                    <td>删除</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td>
+                        <input type="checkbox" class="all">全选
+                    </td>
+                    <td colspan="2" class="remove">
+                        删除已选商品
+                    </td>
+                    <td>
+                        已选 <span class="allNum cf60 f20">0</span> 件商品
+                    </td>
+                    <td>总价： <span class="allPrice cf60 f20">0</span></td>
+                    <td id="settlement">结算</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+
+    <section id="floor">
+        <div class="ebitle clearfix"></div>
+        <div class="ensure">
+            <div class="doc">
+                <div><img src="https://cdn.jsdelivr.net/gh/mydracula/image@master/20201219/bfeef540504423343f1ccbb5c564433d.png">
+                </div>
+                <div><img src="https://cdn.jsdelivr.net/gh/mydracula/image@master/20201219/b23d34744777b2f56292a48b6eec1d25.png">
+                </div>
+                <div><img src="https://cdn.jsdelivr.net/gh/mydracula/image@master/20201219/7150d9b14f42dd9cf3f340b19cc88d98.png">
+                </div>
+                <div><img src="https://cdn.jsdelivr.net/gh/mydracula/image@master/20201219/d5db600ab91e1fc89ba6f463c3244264.png">
+                </div>
+            </div>
+        </div>
+
+        <div class="help clearfix">
+            <div class="helpnav">
+                <h5>购物指南</h5>
+                <ul>
+                    <li>购物流程</li>
+                    <li>发票制度</li>
+                    <li>账户管理</li>
+                    <li>会员优惠</li>
+                </ul>
+            </div>
+
+
+            <div class="helpnav">
+                <h5>支付方式</h5>
+                <ul>
+                    <li>货到付款</li>
+                    <li>网上支付</li>
+                    <li>礼品卡支付</li>
+                    <li>银行转帐</li>
+                </ul>
+            </div>
+
+            <div class="helpnav">
+                <h5>订单服务</h5>
+                <ul>
+                    <li>订单配送查询</li>
+                    <li>订单状态说明</li>
+                    <li>自助取消订单</li>
+                    <li>自助修改订单</li>
+                </ul>
+            </div>
+
+
+            <div class="helpnav">
+                <h5>退换货</h5>
+                <ul>
+                    <li>退换货政策</li>
+                    <li>自助申请退换货</li>
+                    <li>退换货进度查询</li>
+                    <li>退款方式和时间</li>
+                </ul>
+            </div>
+
+            <div class="helpnav">
+                <h5>商家服务</h5>
+                <ul>
+                    <li>商家中心</li>
+                    <li>运营服务</li>
+                    <li>加入尾品汇</li>
+                </ul>
+            </div>
+
+            <div class="fl">
+                <img src="https://cdn.jsdelivr.net/gh/mydracula/image@master/20201219/f9567efa61b5e959c94ac0abbe26b819.png">
+            </div>
+
+
+        </div>
+
+        <ul class="link clearfix">
+            <li>公司简介</li>
+            <li>Investor</li>
+            <li>网站联盟</li>
+            <li>乐购招商</li>
+            <li>机构销售</li>
+            <li>手机乐购</li>
+            <li>官方Blog</li>
+            <li>热词搜索</li>
+        </ul>
+
+        <div class="copy">
+            <span>Copyright (C) 乐购网 2004-2016, All Rights Reserved</span>
+        </div>
+    </section>
+</body>
+
+</html>

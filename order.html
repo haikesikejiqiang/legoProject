@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 重置样式 -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- 公共样式 -->
+    <link rel="stylesheet" href="css/common.css">
+    <!-- 字体图标 -->
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_2293961_3qvldou5kvx.css">
+    <!-- 结算样式 -->
+    <link rel="stylesheet" href="css/order.css">
+    <!-- jQuery cdn -->
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- 结算JS -->
+    <script src="js/order.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="full">
+            <div class="container clearfix">
+                <a href="javascript:;" class="fl">legochina.cn</a>
+                <p class="fr">
+                    欢迎光临<a href="javascript:;">乐购</a>，请
+                    <a href="javascript:;">登陆</a>\<a href="javascript:;">注册</a>
+                </p>
+                <h1 class="logo">
+                    <img src="https://cdn.jsdelivr.net/gh/mydracula/image@master/20201226/fd1d438d7962ec9cd4a60642c004f0b7.png">
+                </h1>
+            </div>
+        </div>
+    </header>
+
+    <section id="searchBox" class="container  clearfix">
+        <form action="javascript:;" class="fr">
+            <input class="sText fl" type="text" placeholder="设计中的设计 原研哉">
+            <input class="sBtn fl" type="submit" value="">
+        </form>
+    </section>
+    <form class="container c4d" method="GET" action="./money.html">
+        <div class="receipt ">
+            填写并核对订单信息
+        </div>
+        <div class="cf2 people c4d">
+            <span class="fl">收货人信息</span>
+            <a href="javascript:void(0):;" class="fr c108">新增收货地址</a>
+        </div>
+        <div>
+            <div class="adress box">
+                <label class=" bf fl bf pay" id="sc">
+                    运送<span>西川</span>
+                    <input type="checkbox" name="pay" value="pay" >
+                   <div class="rectangle"></div>
+                </label>
+                <div class="fl cd">
+                    <span>成都市</span><span>高新区</span>天府新谷11号楼1101
+                </div>
+                <div class="name fl">
+                    <span>收货人</span>X某某
+                </div>
+                <div class="tel fl">
+                    <span class="fl">联系电话：136******88</span>
+                    <i class="fl">默认收货地址</i>
+                </div>
+            </div>
+            <div class="more box">
+                <div class="c4d">更多收获地址</div>
+                <div class="adress">
+                    <label class=" bf fl bf" id="more">
+                        运送<span>西川</span>
+                        <input type="checkbox" name="pay" value="pay" >
+                       <div class="rectangle"></div>
+                    </label>
+                    <div class="fl cd">
+                        <span>成都市</span><span>青羊区</span>天府广场11号楼1101
+                    </div>
+                    <div class="name fl">
+                        <span>收货人</span>X某某
+                    </div>
+                    <div class="tel fl">
+                        <span class="fl">联系电话：136******88</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="cf2 people c4d m20">
+            <span class="fl">支付方式</span>
+            <a href="javascript:void(0):;" class="fr c108">新增收货地址</a>
+        </div>
+        <div class="adress pay" id="pay">
+            <label class=" bf fl bf ">
+                货到付款
+                <input type="checkbox" name="pay" value="pay" >
+               <div class="rectangle"></div>
+            </label>
+            <label class=" bf fl bf">
+                微信支付
+                <input type="checkbox" name="pay" value="pay" >
+               <div class="rectangle"></div>
+            </label>
+            <label class=" bf fl bf">
+                信用卡
+                <input type="checkbox" name="pay" value="pay" >
+               <div class="rectangle"></div>
+            </label>
+            <label class=" bf fl bf">
+                银行卡
+                <input type="checkbox" name="pay" value="pay" >
+               <div class="rectangle"></div>
+            </label>
+            <a class="fl c4d" href="java:void(0):;">更多>></a>
+        </div>
+        <div class="cf2 people c4d m20">
+            <span class="fl">送货清单</span>
+            <div class="fr">
+                <a href="javascript:void(0):;" class="fl c108">价格说明</a>
+                <a href="javascript:void(0):;" class="fl c108 list">返回购物车修改</a>
+            </div>
+        </div>
+        <div class="clearfix">
+            <div class="fl  distribution">
+                <div class="mode">配送方式：</div>
+                <div class="adress">
+                    <label class=" bf fl bf" id="express">
+                        顺丰快递
+                        <input type="checkbox" name="pay" value="pay" >
+                       <div class="rectangle"></div>
+                    </label>
+                </div>
+                <div class="time">
+                    <div class="clearfix">
+                        <span class="c99 fl">付款方式：</span>
+                        <span class="#4d4d4d fl">现金</span>
+                        <a href="javascript:void(0):;" class="c108 fr">修改</a>
+                    </div>
+                    <div class="clearfix">
+                        <span class=" c99 fl ">配送时间：</span>
+                        <span class="#4d4d4d fl ">预计8月30日12：00-16：00送达</span>
+                        <a href="javascript:void(0):;" class="c108 fr">修改</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="fl cf2 book ">
+                <div class="bookbox clearfix">
+                    <img src="https://cdn.jsdelivr.net/gh/mydracula/image@master/20201227/b1fd0a999eedd33212772cfbf5cc9077.png" class="fl">
+                    <span class="f15 c4d fl">从你的全世界路过</span>
+                    <span class="f14 ff6600 fl">41.00</span>
+                    <span class="f13 c4d fl">1</span>
+                    <span class="f18 c4d fl">有货</span>
+                </div>
+            </div>
+        </div>
+        <div class="invoice">
+            <div class="information">
+                发票信息：
+            </div>
+            <div class="ordinary">
+                普通发票（电子）<span>个人</span>明细
+                <a href="javascript:void(0):;">修改</a>
+            </div>
+        </div>
+        <div class="Subtotal clearfix">
+            <div class="fl">
+                <p>
+                    <span><span class="ff6">1</span>件商品</span>
+                    <span>总商品金额：</span>
+                    <span span class="ff6">41.00</span>
+                    <span>运费：</span>
+                    <span span class="ff6">6.00</span>
+                </p>
+            </div>
+            <div class="fr">
+                <p>
+                    <span>应付金额：</span><span class="ff6">47.00</span>
+                </p>
+            </div>
+        </div>
+        <div class="submit">
+            <span class="fl">配送至</span>
+            <input type="text" placeholder="成都高新区三环内天府新谷11号1101" class="fl">
+            <a href="javascript:(void):;" class="fr" id="submit">提交订单</a>
+        </div>
+        <div class="advertisement">
+            <img src="https://cdn.jsdelivr.net/gh/mydracula/image@master/20201223/124c541e40fa3f915a3b5a31a8cb2684.jpg">
+        </div>
+    </form>
+
+    <section id="floor">
+        <div class="ebitle clearfix"></div>
+        <div class="ensure">
+            <div class="doc">
+                <div><img src="https://cdn.jsdelivr.net/gh/mydracula/image@master/20201219/bfeef540504423343f1ccbb5c564433d.png">
+                </div>
+                <div><img src="https://cdn.jsdelivr.net/gh/mydracula/image@master/20201219/b23d34744777b2f56292a48b6eec1d25.png">
+                </div>
+                <div><img src="https://cdn.jsdelivr.net/gh/mydracula/image@master/20201219/7150d9b14f42dd9cf3f340b19cc88d98.png">
+                </div>
+                <div><img src="https://cdn.jsdelivr.net/gh/mydracula/image@master/20201219/d5db600ab91e1fc89ba6f463c3244264.png">
+                </div>
+            </div>
+        </div>
+
+        <div class="help clearfix">
+            <div class="helpnav">
+                <h5>购物指南</h5>
+                <ul>
+                    <li>购物流程</li>
+                    <li>发票制度</li>
+                    <li>账户管理</li>
+                    <li>会员优惠</li>
+                </ul>
+            </div>
+
+
+            <div class="helpnav">
+                <h5>支付方式</h5>
+                <ul>
+                    <li>货到付款</li>
+                    <li>网上支付</li>
+                    <li>礼品卡支付</li>
+                    <li>银行转帐</li>
+                </ul>
+            </div>
+
+            <div class="helpnav">
+                <h5>订单服务</h5>
+                <ul>
+                    <li>订单配送查询</li>
+                    <li>订单状态说明</li>
+                    <li>自助取消订单</li>
+                    <li>自助修改订单</li>
+                </ul>
+            </div>
+
+
+            <div class="helpnav">
+                <h5>退换货</h5>
+                <ul>
+                    <li>退换货政策</li>
+                    <li>自助申请退换货</li>
+                    <li>退换货进度查询</li>
+                    <li>退款方式和时间</li>
+                </ul>
+            </div>
+
+            <div class="helpnav">
+                <h5>商家服务</h5>
+                <ul>
+                    <li>商家中心</li>
+                    <li>运营服务</li>
+                    <li>加入尾品汇</li>
+                </ul>
+            </div>
+
+            <div class="fl">
+                <img src="https://cdn.jsdelivr.net/gh/mydracula/image@master/20201219/f9567efa61b5e959c94ac0abbe26b819.png">
+            </div>
+        </div>
+
+        <ul class="link clearfix">
+            <li>公司简介</li>
+            <li>Investor</li>
+            <li>网站联盟</li>
+            <li>乐购招商</li>
+            <li>机构销售</li>
+            <li>手机乐购</li>
+            <li>官方Blog</li>
+            <li>热词搜索</li>
+        </ul>
+
+        <div class="copy">
+            <span>Copyright (C) 乐购网 2004-2016, All Rights Reserved</span>
+        </div>
+    </section>
+
+
+    <div class="mask"></div>
+
+    <div class="popup">
+        <p class="sure">确认付款<span class="iconfont icon-iconfront-"></span></p>
+        <div class="tip">
+            <div class="clearfix popup_sure">
+                <span class="iconfont  icon-jinggao fl"></span>
+                <span class="yes fl">是否去确认订单？</span>
+            </div>
+            <div class="btns clearfix">
+                <a href="javascript:;" class="fl cancel">取消</a>
+                <a href="javascript:;" class="fl confirm">确认</a>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

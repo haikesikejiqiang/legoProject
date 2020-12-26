@@ -1,0 +1,107 @@
+#searchBox {
+    padding: 4px 0 11px 0;
+}
+
+
+/* .full div.container>a {
+    text-indent: 269px;
+} */
+
+#money .ebitle {
+    margin-top: 30px;
+    border-bottom: 6px solid #f60;
+    line-height: 38px;
+    color: #666666;
+}
+
+#money .ebitle h2,
+#like .ebitle h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#money .ebitle ul li {
+    float: left;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.active {
+    background: #f60 !important;
+    color: #fff;
+}
+
+#money .fl.active {
+    text-align: center;
+    width: 40px;
+}
+
+.slidePic {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.slidePic>div {
+    cursor: pointer;
+    float: left;
+    line-height: 30px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    width: 186px;
+    height: 240px;
+}
+
+.slidePic>div img {
+    width: 150px !important;
+    height: 150px !important;
+}
+
+.textCenter {
+    width: 186px;
+    height: 150px;
+    text-align: center;
+}
+
+.red.ti10 {
+    color: red;
+}
+
+.ti10 {
+    text-indent: 10px;
+    color: #666666;
+    font-size: 14px;
+}
+
+.six00 {
+    font-weight: 600;
+}
+
+span.through {
+    color: #cccccc;
+    text-decoration: line-through;
+}
+
+#like {
+    margin-top: 30px;
+}
+
+#like .likebox {
+    position: relative;
+    height: 520px;
+    overflow: hidden;
+}
+
+#like .likebox .change {
+    position: absolute;
+}
+
+#like .ebitle p.fr {
+    color: #468bfd;
+    cursor: pointer;
+    user-select: none;
+}
+
+#floor {
+    margin-top: 30px;
+}
