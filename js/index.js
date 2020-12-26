@@ -182,6 +182,6 @@ $(function() {
 
 
 
-    console.log("%c Le.Go" + " %c https://lego.now.sh/ ", "color: white; background: #e9546b; padding:5px 0;", "padding:4px;border:1px solid #e9546b;");
+    console.log("%c Le.Go" + " %c https://tescot.now.sh/ ", "color: white; background: #e9546b; padding:5px 0;", "padding:4px;border:1px solid #e9546b;");
 
 })
