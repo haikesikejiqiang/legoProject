@@ -1,7 +1,7 @@
 $(function() {
 
     $('#shopCar').click(function() {
-        window.location.href = "shopCar.html";
+        window.location.href = "proDetail.html";
     })
 
 
